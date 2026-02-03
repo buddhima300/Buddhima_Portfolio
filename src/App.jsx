@@ -97,7 +97,7 @@ function App() {
             <Navbar />
             <main>
               <Routes>
-                <Route path="/Lakmal.C.Buddhima" element={<MainPortfolio />} />
+                <Route path="/Buddhima_Portfolio" element={<MainPortfolio />} />
                 <Route
                   path="/projects/:title"
                   element={<ProjectDetail sectionData={projects} />}

@@ -22,7 +22,7 @@ export const Navbar = () => {
   const navItems = [
     {
       name: "Dev Portfolio",
-      path: "/Lakmal.C.Buddhima",
+      path: "/Buddhima_Portfolio",
     },
     // {
     //   name: "Vision M Tech",
