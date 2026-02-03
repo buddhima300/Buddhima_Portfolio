@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Lakmal.C.Buddhima/", // Your repo name
+  base: "/Buddhima_Portfolio/", // Your repo name
 });
