@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .background-img {
-  background-image: url("https://i.pinimg.com/1200x/1e/f5/44/1ef544bf117a501c7160ea4c56b5256c.jpg");
+  background-image: url("./assets/bg1.jpg");
   background-size: contain;
   background-position: center;
 }

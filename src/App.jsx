@@ -10,6 +10,7 @@ import Aurora from "./components/UI/Aurora";
 import LaserFlow from "./components/UI/LaserFlow";
 import ProjectDetail from "./pages/MainPortfolio/ProjectDetail";
 import { projects } from "./data/MainPortfolio";
+import bg1 from "./assets/bg1.jpg";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -48,9 +49,10 @@ function App() {
 
           {/* Modern animated background */}
           <div
-            className="fixed inset-0 mask-t-from-50% mask-t-to-80%  bg-[url('https://i.pinimg.com/736x/0f/bd/11/0fbd112474d56143db77d5794ce92634.jpg')] bg-cover bg-center opacity-100 pointer-events-none"
+            className="fixed inset-0 mask-t-from-50% mask-t-to-80%  bg-cover bg-center opacity-100 pointer-events-none"
             style={{
               transform: `translateY(${parallaxOffset}px)`,
+              backgroundImage: `url(${bg1})`,
             }}
           />
           {/* Animated gradient shapes */}
